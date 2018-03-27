@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #2196f3;
+    transition: all .2s ease-in-out;
+}
+.pic {
+    margin-top: 5px;
+    border-radius: 50%;
+}
+
+a:hover {
+    color: red;
+}
+/* /////////////// Header Section ///////////////// */
+header {
+    background: #385998;
+    padding: 15px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+header .fa {
+    color: white;
+    font-size: 16px;
+}
+header .logo-area {
+    color: white;
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+}
+header .logo-area a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .menu {
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: right;
+    padding-right: 20px;
+}
+header .menu ul li {
+    display: inline-block;
+}
+header .menu ul li a {
+    margin-right: 20px;
+}
+header .icon-links {
+    display: inline-block;
+    width: 20%;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+header .icon-links ul li {
+    display: inline-block;
+    margin-right: 10px
+}
+header .icon-links .quick-options {
+    display: inline-block;
+    margin-left: -4px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+header .privacy {
+    display: inline-block;
+    margin-left: -4px;
+    padding-left: 20px;
+}
+header .search-area {
+    display: inline-block;
+    width: 40%;
+    margin-left: -4px;
+    text-align: right;
+}
+header .search-area ul li {
+    display: inline-block;
+}
+
+/* //////////// Top Profile Section //////////////// */
+#top-area {
+    padding: 200px 15px 90px 15px;
+    background: url(https://cdn.wallpapersafari.com/9/43/vODLhX.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#top-area .profile-info .user-image {
+    padding: 10px;
+    display: inline-block;
+}
+#top-area .profile-info .user-image img {
+    border-radius: 50%;
+    height: 150px;
+}
+#top-area .profile-info .user-details {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+} 
+#top-area .profile-info .user-details h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 8px;
+}
+#top-area .profile-info .user-details a {
+    background: rgba(255, 255, 255, 0.4);
+    margin-left: -4px;
+    display: inline-block;
+    width: 45%;
+    margin-right: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    transition: background .4s ease-in-out;
+}
+#top-area .profile-info .user-details a:hover {
+    background: #2196f3;
+}
+
+/* //////////// Content Section //////////////// */
+#content-area {
+    background: #fafafa;
+    overflow: auto;
+    padding: 50px 0;
+    border-radius: 3px;
+}
+#content-area .side-col {
+    width: 35%;
+    float: left;
+    margin: 0 2.5%;
+    max-width: 380px;
+}
+
+#content-area .widget-box {
+    padding: 15px;
+    background: #fff;
+    margin: 0 0 15px 0;
+    -webkit-box-shadow: 0px 2px 5px 1px rgba(138,138,138,1);
+-moz-box-shadow: 0px 2px 5px 1px rgba(138,138,138,1);
+box-shadow: 0px 2px 5px 1px rgba(138,138,138,1);
+border-radius: 3px;
+overflow: auto;
+}
+#content-area .widget-box .head .widget-icon {
+    display: inline-block;
+}
+#content-area .widget-box .head .widget-icon-container{
+    display: inline-block;
+}
+#content-area .widget-box .head .widget-icon .fa{
+    max-width: 50%;
+    font-size: 23px;
+}
+#content-area .widget-box .head .widget-title{
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+#content-area .widget-box .body p {
+    padding-bottom: 1px;
+}
+#content-area .widget-box .body h6 {
+    padding-bottom: 1.5px;
+}
+#content-area .widget-box .body {
+    padding: 20px 0;
+}
+#content-area .main-area {
+    float: left;
+    width: 55%;
+    margin: 0 2.5%; 
+}
+
+/* //////////// Main Area //////////////// */
+#content-area .main-area .widget-box .submenu {
+    padding: 0;
+    margin: 0 0 20px 0;
+ }
+#content-area .main-area .submenu ul {
+   padding: 0;
+}
+#content-area .main-area .submenu ul li {
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+ }
+ #content-area .main-area .submenu ul li:hover {
+    border-bottom: 3px solid #2196f3;
+    color: #2196f3;
+ }
+ #content-area .main-area .submenu ul li:nth-child(5) {
+    padding: 13px 0 21px;
+ }
+ #content-area .main-area .submenu ul li .fa {
+    font-size: 20px;
+ }
+ #content-area .main-area .submenu ul li span {
+    display: block;
+    margin: 15px 0 0 0;
+    text-transform: uppercase;
+    font-size: 14px;
+ }
+ #content-area .main-area .widget-box.post {
+     overflow: auto;
+ }
+ #content-area .main-area .widget-box.post .head {
+    margin: 0 0 15px 0;
+}
+ #content-area .main-area .widget-box.post .head .user-img-container {
+     width: 8%;
+     display: inline-block;
+     overflow: auto;
+     float: left;
+ }
+ #content-area .main-area .widget-box.post .head .user-img {
+    display: inline-block;
+    float: left;
+    background: url(https://d3iw72m71ie81c.cloudfront.net/female-63.jpg) no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0;
+ }
+ #content-area .main-area .widget-box.post .head .post-info {
+    display: inline-block;
+    float: left;
+    width: 92%;
+ }
+ #content-area .main-area .widget-box.post .head::after {
+     content: "";
+     clear: both;
+     display: table;
+ }
+ #content-area .main-area .widget-box.post .head .post-info .user-info {
+    display: block;
+    font-size: 14px;
+    margin: 4px 0 6px 0;
+ }
+ #content-area .main-area .widget-box.post .head .post-info .post-date {
+    display: block;
+    font-size: 12px;
+    color: #ababab;
+ }
+ #content-area .main-area .widget-box.post .body {
+    padding: 0;
+ }
+ #content-area .main-area .widget-box.post .body .post-img img {
+    width: 100%;
+}
+ #content-area .main-area .widget-box.post .body .top-icons {
+    width: 100%;
+    padding: 15px 0;
+    color: #ababab;
+ }
+#content-area .main-area .widget-box.post .body .top-icons .fa {
+    font-size: 20px;   
+ }
+ #content-area .main-area .widget-box.post .body .top-icons .fa-thumbs-o-up {
+    margin-right: 15px;
+ }
+ #content-area .main-area .widget-box.post .body .top-icons span {
+     float: right;
+     display: inline-block;
+ }
+ #content-area .main-area .widget-box.post .body .post-comments{
+    background: #e0e0e0;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px;
+    border-bottom: 1px solid rgba(25, 25, 25, 0.3);
+ }
+ #content-area .main-area .widget-box.post .body .post-comments p{
+    padding-top: 10px;
+ }
+ #content-area .main-area .widget-box.post .body .post-comments .user-img{
+    width: 8%;
+    display: inline-block;
+    /* overflow: auto; */
+    float: left;
+ }
+ #content-area .main-area .widget-box.post .body .post-comments::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ #content-area .main-area .widget-box.post .body .post-comments .user-img img {
+    width: 100%;
+    border-radius: 50%;
+    float: left;
+    width: 50px;
+    height: 50px;
+ }
+ #content-area .main-area .widget-box.post .body .post-comments .user-comment {
+    display: inline-block;
+    float: left;
+    width: 92%;
+    font-size: 14px;
+ }
+ #content-area .main-area .widget-box.post .body .post-comments .user-comment .user-info .time {
+    color: #868686;
+    font-size: 12px;
+    float: right;
+ }
+
+ #content-area .main-area .widget-box.post .body .post-form{
+    padding: 15px 0 0 0;
+ }
+ #content-area .main-area .widget-box.post .body .post-form .user-img{
+    width: 8%;
+    display: inline-block;
+    /* overflow: auto; */
+    float: left;
+ }
+ #content-area .main-area .widget-box.post .body .post-form::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ #content-area .main-area .widget-box.post .body .post-form .user-img img {
+    width: 100%;
+    border-radius: 50%;
+    float: left;
+    width: 50px;
+    height: 50px;
+ }
+ #content-area .main-area .widget-box.post .body .post-form .form-info {
+    display: inline-block;
+    float: left;
+    width: 92%;
+    font-size: 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ababab;
+ }
+ #content-area .main-area .widget-box.post .body .post-form .form-info input {
+    width: 80%;
+    border: 0 solid #fff;
+    font-size: 15px;
+ } #content-area .main-area .widget-box.post .body .post-form .form-info input:focus {
+    width: 80%;
+    outline: none;
+    border: 0 solid #fff;
+    padding: 10px;
+    font-size: 15px;
+ }
+ #content-area .main-area .widget-box.post .body .post-form .form-info .icons{
+    display: inline-block;
+    float: right;
+ }
+ #content-area .main-area .widget-box.post .body .post-form .form-info .icons .fa{
+    font-size: 20px;
+    margin:0 15px 0 0;
+ }
+
+ /* //////////// right-side  menu/////////////// */
+/* .right-col {
+    float: right;
+    margin: 0 .5%;
+    width: 9%;
+}
+ .widget-box.news {
+     margin-right: -50px;
+ }
+
+.hi {
+     color: red;
+ }
+.low {
+    color: blue;
+}
+.weather-widget {
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+}
+li {
+    line-height: 2;
+} */
